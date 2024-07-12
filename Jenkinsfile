@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment {
     //FIREBASE_DEPLOY_TOKEN = credentials('firebase-token')
-    FIREBASE_DEPLOY_TOKEN = credentials('ssh-production-key')
+    TOKENAWS = credentials('ssh-production-key')
     }
 
  stages{
